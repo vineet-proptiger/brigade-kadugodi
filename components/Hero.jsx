@@ -41,7 +41,7 @@ const Hero = ({ setIsOpen }) => {
           bottom: 0;
           left: 0;
           z-index: 10;
-          padding: 100px 80px 300px 44px;
+          padding: 100px 80px 80px 44px;
           width: 100%;
           max-width: 800px;
           background: radial-gradient(
@@ -64,6 +64,7 @@ const Hero = ({ setIsOpen }) => {
           line-height: 1.08;
           margin: 0 0 6px;
           text-shadow: 0 2px 16px rgba(0,0,0,0.5);
+          white-space: nowrap;
         }
 
         /* Subtitle */
@@ -214,7 +215,7 @@ const Hero = ({ setIsOpen }) => {
             object-position: center;
           }
           .hero-content {
-            padding: 0 28px 220px !important;
+            padding: 0 28px 80px !important;
           }
         }
 
@@ -355,12 +356,12 @@ const Hero = ({ setIsOpen }) => {
         <>
             {/* Main Heading */}
             <h1 className="hero-title" data-aos="zoom-in-up" data-aos-delay="0">
-             BRIGADE NEW LAUNCH IN KADUGODI
+             Brigade Kadugodi Whitefield
             </h1>
 
             {/* Subtitle */}
             <p className="hero-subtitle" data-aos="fade-right" data-aos-delay="100">
-              <span style={{ fontSize: '0.85em', fontWeight: 500, textTransform: 'uppercase' }}>AT WHITEFIELD , KADUGODI</span>
+              <span style={{ fontSize: '0.85em', fontWeight: 500, textTransform: 'uppercase' }}>New Launch Hoskote Road, Bangalore</span>
             </p>
             {/* Bullet Points */}
             <div className="hero-bullets" style={{ marginBottom: '24px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
