@@ -59,8 +59,8 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
 
           <div className="p-6 sm:p-7 flex flex-col justify-center flex-1 relative">
             
-            {/* Mobile Header (Vertical) */}
-            <div className="flex sm:hidden flex-col items-center justify-center gap-2 mb-4 border-b border-gray-100 pb-4 mt-2">
+            {/* Mobile/Tablet Header (Vertical) */}
+            <div className="flex md:hidden flex-col items-center justify-center gap-2 mb-4 border-b border-gray-100 pb-4 mt-2">
               <div className="relative w-[160px] h-16 shrink-0">
                 <Image 
                   src={logoImages.tarc} 
@@ -78,7 +78,7 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
             </div>
 
             {/* Desktop Header (Side-by-Side) */}
-            <div className="hidden sm:flex items-center justify-start gap-4 mb-6 border-b border-gray-100 pb-4 mt-2">
+            <div className="hidden md:flex items-center justify-start gap-4 mb-6 border-b border-gray-100 pb-4 mt-2">
               <div className="relative w-[130px] h-14 shrink-0">
                 <Image 
                   src={logoImages.tarc} 
