@@ -165,7 +165,7 @@ const Hero = ({ setIsOpen }) => {
         /* ─── Desktop ─── */
         @media (min-width: 1024px) {
           .hero-container {
-            aspect-ratio: 16/10;
+            aspect-ratio: 21/9;
             width: 100%;
           }
           .slide-layer {
@@ -203,7 +203,7 @@ const Hero = ({ setIsOpen }) => {
         /* ─── Tablet ─── */
         @media (min-width: 768px) and (max-width: 1023px) {
           .hero-container {
-            aspect-ratio: 16/10;
+            aspect-ratio: 16/7;
           }
           .slide-layer {
             position: absolute;
