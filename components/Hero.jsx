@@ -246,6 +246,10 @@ const Hero = ({ setIsOpen }) => {
             text-shadow: none !important;
           }
 
+          .hero-title {
+            font-size: clamp(12px, 4.5vw, 24px) !important;
+          }
+
           .hero-subtitle {
             font-size: 16px !important;
           }
