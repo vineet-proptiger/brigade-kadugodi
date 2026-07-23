@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import { galleryImages } from '../lib/images'
 
-const F_JOST = 'var(--font-jost), Montserrat, sans-serif'
+const F_JOST = 'var(--font-jost), Montserrat, sans-serif' // Hot reload trigger
 
 
 const CarouselSection = ({ setIsOpen }) => {
