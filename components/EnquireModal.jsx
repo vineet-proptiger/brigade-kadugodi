@@ -61,12 +61,12 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
             
             {/* Compact Side-by-Side Header */}
             <div className="flex items-center justify-start gap-3 sm:gap-4 mb-6 border-b border-gray-100 pb-4 mt-2">
-              <div className="relative w-[90px] sm:w-[100px] h-10 sm:h-12 shrink-0">
+              <div className="relative w-[110px] sm:w-[130px] h-12 sm:h-14 shrink-0">
                 <Image 
                   src={logoImages.tarc} 
                   alt="Brigade Kadugodi Logo" 
                   fill 
-                  className="object-contain" 
+                  className="object-contain scale-110 sm:scale-125" 
                 />
               </div>
               <div className="flex items-center border-l border-gray-200 pl-3 sm:pl-4 min-h-[32px] sm:min-h-[40px]">
