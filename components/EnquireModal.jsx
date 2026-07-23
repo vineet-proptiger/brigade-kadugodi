@@ -59,19 +59,37 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
 
           <div className="p-6 sm:p-7 flex flex-col justify-center flex-1 relative">
             
-            {/* Compact Side-by-Side Header */}
-            <div className="flex items-center justify-start gap-3 sm:gap-4 mb-6 border-b border-gray-100 pb-4 mt-2">
-              <div className="relative w-[110px] sm:w-[130px] h-12 sm:h-14 shrink-0">
+            {/* Mobile Header (Vertical) */}
+            <div className="flex sm:hidden flex-col items-center justify-center gap-2 mb-4 border-b border-gray-100 pb-4 mt-2">
+              <div className="relative w-[160px] h-16 shrink-0">
                 <Image 
                   src={logoImages.tarc} 
                   alt="Brigade Kadugodi Logo" 
                   fill 
-                  className="object-contain scale-110 sm:scale-125" 
+                  className="object-contain scale-125" 
                 />
               </div>
-              <div className="flex items-center border-l border-gray-200 pl-3 sm:pl-4 min-h-[32px] sm:min-h-[40px]">
+              <h3 
+                className="text-[14px] font-bold text-gray-800 tracking-[0.5px] uppercase text-center leading-tight mt-1" 
+                style={{ fontFamily: F_JOST }}
+              >
+                Book A Free <span className="text-[var(--color-gold)]">Site Visit</span>
+              </h3>
+            </div>
+
+            {/* Desktop Header (Side-by-Side) */}
+            <div className="hidden sm:flex items-center justify-start gap-4 mb-6 border-b border-gray-100 pb-4 mt-2">
+              <div className="relative w-[130px] h-14 shrink-0">
+                <Image 
+                  src={logoImages.tarc} 
+                  alt="Brigade Kadugodi Logo" 
+                  fill 
+                  className="object-contain scale-125" 
+                />
+              </div>
+              <div className="flex items-center border-l border-gray-200 pl-4 min-h-[40px]">
                 <h3 
-                  className="text-[13.5px] sm:text-[14.5px] font-bold text-gray-800 tracking-[0.5px] sm:tracking-[1px] uppercase whitespace-normal sm:whitespace-nowrap leading-tight" 
+                  className="text-[14.5px] font-bold text-gray-800 tracking-[1px] uppercase whitespace-nowrap leading-tight" 
                   style={{ fontFamily: F_JOST }}
                 >
                   Book A Free <span className="text-[var(--color-gold)]">Site Visit</span>
